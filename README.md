@@ -19,13 +19,14 @@ Iremos deixar o gabarito, mas é recomendado que você acesse somente após a co
 
 ---
 
-## 📞 **Para saber mais sobre os cursos **
+## 📞 **Para saber mais sobre os cursos**
 Se quiser entrar em contato comigo, fique à vontade para me encontrar nas seguintes plataformas:
 
 - **Site**  (https://escoladeprogramadores.com.br/2025/)
 - **LinkedIn** ( - )
 - **Instagram** https://www.instagram.com/escola_programadores/
 - **Youtube** (https://www.youtube.com/@ESCOLADEPROGRAMADORES)
+- **Whatsapp** - (https://wa.me/5519992395839?text=Quero%20saber%20mais%20sobre%20os%20cursos..)
 
 ---
 
