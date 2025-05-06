@@ -1,0 +1,22 @@
+# ==============================
+# Exercicio 
+'''
+Problema: Desenvolver uma solução para simular um caixa de supermercado.
+Iremos receber os produtos e seus valores dentro de um loop.
+Devemos implementar uma solução de saída do Loop.
+Ao final, imprimir somente o Total da Compra (soma dos produtos).
+'''
+
+produto     = ""
+valorProduto= 0.00
+valorAcum   = 0.00
+
+while True:
+    produto      = input("Digite o nome do produto ")
+    valorProduto = float(input("Digite o valor do produto (0 - sair)  "))
+    if (valorProduto == 0):
+       break
+    else:
+        valorAcum = valorAcum + valorProduto
+
+print ("Total da Compra        ", valorAcum)  
