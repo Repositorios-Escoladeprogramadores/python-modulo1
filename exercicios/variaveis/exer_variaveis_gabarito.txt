@@ -1,0 +1,20 @@
+# Iremos desenvolver uma aplicação que receba o nome e duas notas de um aluno (entre 0.00 e 10.00) . Calcular e imprimir sua media.
+
+# Esse aqui eu faço por você..
+
+nome = ""
+nota1 = 0.00
+nota2 = 0.00
+media  = 0.00
+
+
+
+# Agora é contigo
+nome = input ("Digite o nome do aluno  ")
+print ("---> Digite as notas usando ponto : Ex: 7.5   ---------- ")
+nota1 = float(input("Entre com a 1a nota  "))
+nota2 = float(input("Entre com a 1a nota "))
+
+media = (nota1 + nota2) / 2
+
+print ("Media... " , media)
