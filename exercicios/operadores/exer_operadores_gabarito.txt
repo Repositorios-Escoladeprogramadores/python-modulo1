@@ -1,3 +1,4 @@
+# Exercicio 1
 # Considerando dois numeros (ex: 04 e 07) como valores realizar as 
 # operacoes : Soma, Subtração , Multiplicação, Divisão, Resto e Potencia (Soma dos dois elevado a potencia de 3)
 
@@ -14,3 +15,24 @@ print("Resto ", 4 % 7)
 print("Potencia ", (4 + 7) ** 3)
 
 # Resp: 11, -3, 28, 0.5714, 4, 1331
+
+
+# Exercicio 2
+# Inicie o programa com duas variaveis sendo A=15 e B=12.
+# Troque os valores entre as variaveis ficando B=15 e A=12
+
+A=15
+B=12
+C=A
+A=B
+B=C
+print ('Valor de A ', A )
+print ('Valor de B ', B )
+
+# Outra forma
+
+A=15
+B=12
+A,B = B,A 
+print ('Valor de A ', A )
+print ('Valor de B ', B )
