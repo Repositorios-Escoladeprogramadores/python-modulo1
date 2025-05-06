@@ -1,0 +1,29 @@
+# ==============================
+# Exercicio 1
+'''
+Problema: Iremos desenvolver uma solução para mostrar qual o valor final de um
+investimento financeiro.
+Receber um valor como Capital de entrada, número de meses aplicados e taxa de
+rentabilidade ao mês.
+Ao final imprimir: Capital de entrada, Meses, Taxa e Valor Capitalizado (final).
+'''
+
+capEntrada = 0.00
+nMeses     = 0
+taxa       = 0.00
+
+
+capEntrada = float(input("Digite o valor do capital de entrada  "))
+valorFinal = capEntrada
+
+nMeses     = int(input("Digite o numero de meses da aplicacao  "))
+taxa       = float(input("Digite a taxa de rentabilidade (Ex: 5.5 -> 5.5%) "))
+taxa       = taxa / 100
+
+for x in range(nMeses):
+    valorFinal = valorFinal + valorFinal * taxa
+
+print ("Capita de Entrada        ", capEntrada)
+print ("Meses                    ", nMeses)
+print ("Taxa                     ", taxa * 100)
+print ("Valor Final Capitalizado ", valorFinal)
