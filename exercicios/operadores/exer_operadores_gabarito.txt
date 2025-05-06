@@ -1,0 +1,16 @@
+# Considerando dois numeros (ex: 04 e 07) como valores realizar as 
+# operacoes : Soma, Subtração , Multiplicação, Divisão, Resto e Potencia (Soma dos dois elevado a potencia de 3)
+
+# Esse aqui eu faço por você..
+
+print("Soma ", 4 + 7)
+
+# Agora é contigo
+
+print("Subtracao ", 4 - 7)  
+print("Multiplicação ", 4 * 7)   
+print("Divisão ", 4 / 7)
+print("Resto ", 4 % 7)
+print("Potencia ", (4 + 7) ** 3)
+
+# Resp: 11, -3, 28, 0.5714, 4, 1331
