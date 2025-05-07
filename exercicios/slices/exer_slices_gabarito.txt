@@ -1,0 +1,21 @@
+# ==============================
+# Exercicio 
+'''
+Dado a lista abaixo, extrair uma sublista com os nomes dos itens e outra com seus codigos:
+1 - Extrair a partir do item 1 somente os codigos com valor impar e em outra sublista os nomes dos items relativos aos codigos
+2 - Mudar a ordem para descendente (maior para o menor) 
+3 - Imprimir as sublistas com codigos e itens  (impar e descendente)
+'''
+
+dados =[["Item 1-tv ","Item 2-radio ","Item 3-gela ","Item 4-micro ","Item 5-liqui ","Item 6-forno ","Item 7-note ","Item 8"],[1,2,3,4,5,6,7,8]]
+
+listaNomesItensImpar = dados[0][0:len(dados[0]):2]
+listaValorItensImpar = dados[1][0:len(dados[0]):2]
+
+listaNomesItensImpar_desc = listaNomesItensImpar[::-1]
+listaValorItensImpar_desc = listaValorItensImpar[::-1]
+
+print (listaValorItensImpar_desc)
+print (listaNomesItensImpar_desc)
+
+
